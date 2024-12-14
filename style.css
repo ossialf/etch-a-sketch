@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    justify-content: stretch;
+    align-content: stretch;
+}
+
+.column {
+    flex-grow: 1;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.square {
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+.filled {
+    background-color: black;
+}
+
+.restartButton {
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    align-self: center;;
+}
